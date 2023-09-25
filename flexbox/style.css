@@ -1,0 +1,42 @@
+
+.left{
+    flex: 1;
+    background-color: bisque;
+}
+.center{
+    flex: 2;
+    background-color: black;
+}
+.right{
+    flex: 1;
+    background-color: cadetblue;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+display: flex;
+min-height: 100vh;
+flex-direction: column;
+justify-content: space-between;
+}
+
+header, footer{
+    min-height: 60px;
+}
+header{
+    background-color: lightgreen;
+}
+footer{
+    background-color: coral;
+}
+
+section{
+  display: flex;
+  flex-grow: 1;
+}
