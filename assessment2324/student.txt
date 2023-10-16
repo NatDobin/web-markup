@@ -1,0 +1,5 @@
+Student name: Nataliia Dobin
+Student number: 715547
+Student class: IT1D
+GitHub Repository: your github repository URL
+GitHub Pages URL: your github pages URL

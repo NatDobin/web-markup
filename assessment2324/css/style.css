@@ -1,0 +1,257 @@
+html
+{
+    box-sizing: border-box;
+}
+*, *::before, *::after
+{
+    box-sizing: inherit;
+}
+body
+{
+    display: block;
+    font-family: 'Mimolette-Regular';
+    font-size: 16px;
+    font-weight: normal;
+    color: #373737;
+
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Adding fonts */
+@font-face {
+    font-family: 'Dela Gothic One';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    src: url(../fonts/DelaGothicOne-Regular.ttf) format(ttf);
+}
+@font-face {
+    font-family: 'Mimolette-Regular';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 37.5px */
+    letter-spacing: 0.625px;
+    src: url(../fonts/Mimolette-Regular.otf) format(otf);
+}
+@font-face {
+    font-family: 'Khorla';
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    src: url(../fonts/Khorla.ttf) format(ttf);
+}
+
+/* Header style start */
+.header
+{
+   background-color: #F1E8DB;
+   padding: 10px 0; 
+
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu
+{
+    display: flex;
+    gap: 55px;
+}
+.menu-item
+{
+    list-style-type: none;
+    font-family: 'Khorla';
+    font-size: 16px;
+}
+.menu-link
+{
+   text-decoration: none;
+   color: #373737; 
+}
+.menu-link:hover, .menu-link:active, .menu-link:focus
+{
+    color: #F54D33;;
+}
+/* Header style end */
+
+/* Main style start */
+.main
+{
+
+}
+.headline
+{
+    background-color: #F1E8DB;
+}
+.intro
+{
+    display: flex;
+    justify-content: space-between;
+}
+.main-intro
+{
+    padding-top: 300px;
+    margin: 0; 
+}
+.title
+{
+    font-family: 'Dela Gothic One';
+    color: #326130;
+    font-size: 40px;
+}
+.subtitle
+{
+    font-size: 32px;
+}
+.main-pic-1
+{
+padding-bottom: 6px;
+}
+
+
+/* Block 1 style start */
+.block-1
+{
+    padding: 110px 0;
+    background-color: #fff;
+}
+.block-1-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome-text
+{
+    width: 550px;
+    height: 555px;
+}
+.block-1-title
+{
+    margin: 0;
+    padding: 0;
+    color: #F54D33;
+    font-family: Dela Gothic One;
+    font-size: 25px;
+    font-style: normal;
+}
+.block-1-text p
+{
+max-width: 550px;
+margin: 0 0 30px;
+}
+.block-1-text
+{
+    padding-top: 25px;   
+    font-family: Mimolette-Regular;
+    font-size: 25px;
+    line-height: 150%; /* 37.5px */
+    letter-spacing: 0.625px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.block-2 
+{
+    background-color: #FDDD98;
+    height: 695px;
+}
+
+.block-2-title
+{
+    margin: 10px 0;
+    padding-top: 76px;
+    color: #F54D33;
+    font-family: Dela Gothic One;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+}
+.block-2-btn
+{
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 170px;
+    height: 62px;
+    border-radius: 10px;
+    background: #FCB8AC;
+    box-shadow: 3px 3px 0px 1px #F54D33; 
+}
+.block-2-btn:hover
+{
+    background-color: #FDB002;
+    color: #F54D33;
+}
+.block-2-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px; 
+}
+.block-2-pic:hover
+{
+    opacity: 50%;
+}
+.block-2-nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+/* Block 2 style end */
+
+/* Main style end */
+
+/* Footer style start */
+.footer
+{
+    margin-top: 55px;
+    padding: 42px 0;
+    background-color: #F1E8DB;
+}
+.contact-btn
+{
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 169px;
+    height: 61px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: #FDDD98;
+    box-shadow: 3px 3px 0px 1px #F54D33;
+}
+.contact-btn:hover
+{
+    background-color: #FDB002;
+    color: #F54D33;
+}
+.footer-nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer style end */
