@@ -96,6 +96,7 @@ ul
 .home-block1
 {
     background-color: #F1E8DB;
+    max-height: 500px;
 }
 .home-block1-content
 {
@@ -104,22 +105,24 @@ ul
 }
 .home-block1-headline
 {
-    padding-top: 300px;
+    padding-top: 250px;
     margin: 0; 
 }
 .home-block1-title
 {
     font-family: 'Dela Gothic One';
     color: #326130;
-    font-size: 40px;
+    font-size: 36px;
+    width: 437px;
+    line-height: 150%; /* 54px */
 }
 .home-block1-subtitle
 {
-    font-size: 32px;
+    font-size: 24px;
 }
 .home-block1-pic
 {
-padding-bottom: 6px;
+padding-top: 16px;
 }
 /* Block 1 style end */
 
@@ -138,11 +141,12 @@ padding-bottom: 6px;
 .home-block2-pic
 {
     margin: 0;
+   
 }
 .home-block2-article
 {
-    width: 550px;
-    height: 555px;
+    width: 360px;
+
 }
 .home-block2-title
 {
@@ -150,21 +154,16 @@ padding-bottom: 6px;
     padding: 0;
     color: #F54D33;
     font-family: Dela Gothic One;
-    font-size: 25px;
+    font-size: 24px;
+    line-height: 150%;
     font-style: normal;
-}
-.home-block2-text p
-{
-    max-width: 550px;
-    margin: 0 0 30px;
 }
 .home-block2-text
 {
-    padding-top: 25px;   
+    padding-top: 30px;   
     font-family: Mimolette-Regular;
-    font-size: 25px;
-    line-height: 150%; /* 37.5px */
-    letter-spacing: 0.625px;
+    font-size: 16px;
+
 }
 /* Block 2 style end */
 
@@ -172,16 +171,17 @@ padding-bottom: 6px;
 .home-block3 
 {
     background-color: #FDDD98;
-    height: 695px;
+    height: 600px;
+    margin-bottom: 40px;
 }
 
 .home-block3-title
 {
-    margin: 10px 0;
-    padding-top: 76px;
+    margin: 0px;
+    padding-top: 54px;
     color: #F54D33;
     font-family: Dela Gothic One;
-    font-size: 25px;
+    font-size: 24px;
     font-style: normal;
     text-align: center;
 }
@@ -189,7 +189,7 @@ padding-bottom: 6px;
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 75px;
+    padding-top: 79px;
 }
 .home-block3-item
 {
@@ -200,7 +200,7 @@ padding-bottom: 6px;
 }
 .home-block3-btn
 {
-    margin-top: 14px;
+    margin-top: 29px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -225,31 +225,30 @@ padding-bottom: 6px;
 
 /* KIDS PAGE START */
 /* Block 1 style start */
-.fun-guide
+.kids-block1
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.page2-title
-{
-    color: #F54D33;
-
-text-align: center;
-font-family: Dela Gothic One;
-font-size: 20px;
-line-height: 150%; /* 30px */
-}
-.page2-text1
-{
-    max-width: 365px;
-}
-.page2-article-main
+.kids-block1-article
 {
     display: flex ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.kids-block1-title
+{
+    color: #F54D33;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    line-height: 150%; /* 30px */
+}
+.kids-block1-text
+{
+    max-width: 365px;
 }
 /* Block 1 style end */
 
@@ -267,7 +266,6 @@ background-color: #FDDD98;
 /* Footer style start */
 .footer
 {
-    margin-top: 55px;
     padding: 42px 0;
     background-color: #F1E8DB;
 }
