@@ -225,11 +225,10 @@ padding-top: 16px;
 
 /* KIDS PAGE START */
 /* Block 1 style start */
-.kids-block1
+.kids-block1-content
 {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 .kids-block1-article
 {
@@ -255,11 +254,37 @@ padding-top: 16px;
 /* Block 2 style start */
 .kids-block2
 {
-height: 200px;
-background-color: #FDDD98;
+    height: 200px;
+    background-color: #FDDD98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+.kids-block2-article
+{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+.kids-block2-title 
+{
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    color: #F54D33;
+    margin: 0;
+    padding-bottom: 37px;
+}
+.kids-block2-subtitle 
+{
+    font-size: 24px;
+    margin: 0;
+}
 /* Block 2 style end */
+
+/* Block 3 style start */
+
+
+/* Block 3 style end */
 
 /* KIDS PAGE END */
 
