@@ -61,7 +61,7 @@ ul
 {
    background-color: #F1E8DB;
    padding: 10px 0; 
-
+   height: 98px;
 }
 .nav
 {
@@ -85,9 +85,9 @@ ul
    text-decoration: none;
    color: #373737; 
 }
-.menu-link:hover, .menu-link:active, .menu-link:focus
+.menu-link:hover, .menu-link:focus, .menu-link:active
 {
-    color: #F54D33;
+    color: #98102a;
 }
 /* Header style end */
 
@@ -112,7 +112,7 @@ ul
 .home-block1-title
 {
     font-family: 'Dela Gothic One';
-    color: #326130;
+    color: #98102a;
     font-size: 36px;
     width: 437px;
     line-height: 150%; /* 54px */
@@ -151,7 +151,7 @@ padding-top: 16px;
 {
     margin: 0;
     padding: 0;
-    color: #F54D33;
+    color: #98102a;
     font-family: Dela Gothic One;
     font-size: 24px;
     line-height: 150%;
@@ -177,7 +177,7 @@ padding-top: 16px;
 {
     margin: 0px;
     padding-top: 54px;
-    color: #F54D33;
+    color: #98102a;
     font-family: Dela Gothic One;
     font-size: 24px;
     font-style: normal;
@@ -210,12 +210,11 @@ padding-top: 16px;
     height: 62px;
     border-radius: 10px;
     background: #FCB8AC;
-    box-shadow: 3px 3px 0px 1px #F54D33; 
+    box-shadow: 3px 3px 0px 1px #98102a; 
 }
 .home-block3-btn:hover
 {
-    background-color: #FDB002;
-    color: #F54D33;
+    background-color: #fff;
 }
 /* Block 3 style end */
 /* HOMEPAGE END*/
@@ -237,7 +236,7 @@ padding-top: 16px;
 }
 .kids-block1-title
 {
-    color: #F54D33;
+    color: #98102a;
     text-align: center;
     font-family: Dela Gothic One;
     font-size: 20px;
@@ -262,15 +261,15 @@ padding-top: 16px;
 }
 .kids-block2-article
 {
-display: flex;
-align-items: center;
-flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .kids-block2-title 
 {
     font-family: Dela Gothic One;
     font-size: 24px;
-    color: #F54D33;
+    color: #98102a;
     margin: 0;
     padding-bottom: 37px;
     word-spacing: 4px;
@@ -346,7 +345,7 @@ flex-direction: column;
 {
     font-family: Dela Gothic One;
     font-size: 20px;
-    color: #F54D33;
+    color: #98102a;
 }
 .kids-block4-text
 {
@@ -365,6 +364,25 @@ padding-top: 50px;
 }
 /* Block 4 style end */
 /* KIDS PAGE END */
+
+/* FIRST STEPS START */
+/* Block 1 style start */
+
+/* Block 1 style end */
+/* FIRST STEPS END */
+
+/* PET CARE START */
+.pet-block1
+{
+}
+.pet-block1-pic
+{
+    max-width: 1150px;
+    height: auto;
+    display: flex;
+}
+/* PET CARE END */
+
 
 /* Footer style start */
 .footer
@@ -386,12 +404,14 @@ padding-top: 50px;
     padding: 25px 40px;
     border-radius: 10px;
     background: #FDDD98;
-    box-shadow: 3px 3px 0px 1px #F54D33;
+    box-shadow: 3px 3px 0px 1px #98102a;
 }
 .contact-btn:hover
 {
-    background-color: #FDB002;
-    color: #F54D33;
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a;
+   
+ 
 }
 .footer-nav
 {
