@@ -20,6 +20,10 @@ ul
     margin: 0;
     padding: 0;
 }
+p
+{
+    margin: 0;
+}
 
 
 .container
@@ -367,8 +371,174 @@ padding-top: 50px;
 
 /* FIRST STEPS START */
 /* Block 1 style start */
-
+.steps-block1
+{
+    background-color: #F1E8DB;
+}
+.steps-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps-block1-article
+{
+    width: 570px;
+    height: 321px;
+}
+.steps-block1-title
+{
+    margin: 0;
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 47px;
+}
+.steps-block1-subtitle
+{
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 37.5px */
+    padding-bottom: 47px;
+}
+.steps-block1-text
+{
+    margin: 0%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.steps-block1-text::first-letter
+{
+    font-size: 24px;
+    color: #98102A;
+}
 /* Block 1 style end */
+
+
+/*  Block 2 style start */
+.steps-block2
+{
+    padding: 75px 0px;
+}
+.steps-block2-title
+{
+    margin: 0;
+    color: #3518C6;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.steps-block2-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.steps-block2-list
+{
+    width: 513px;
+    height: 702px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.steps-list-item 
+{
+    font-size: 16px;
+    font-style: normal;
+    padding-top: 15px;
+}
+.steps-list-item::first-line
+{
+    font-family: Khorla;
+}
+.steps-link
+{
+    color: #98102A;
+    font-family: Khorla;
+}
+/*  Block 2 style end */
+
+/*  Block 3 style start */
+.steps-block3
+{
+}
+.steps-block3-header
+{
+    height: 90px;
+    background-color: #FDDD98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.steps-block3-title
+{
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+}
+.steps-block3-nav
+{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.steps-block3-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+.steps-bloc3-pics
+{
+    outline:10px solid #FFFFFF80;
+    outline-offset: -20px; 
+}
+.steps-block3-subtitle
+{
+    width: 326px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 30px 0px;
+}
+.steps-block3-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 172px;
+    height: 63px;
+    border-radius: 10px;
+    background: #FCB8AC;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.steps-block3-btn:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.steps-block3-footer
+{
+    height: 92px;
+    background-color: #FDDD98;
+}
+/*  Block 3 style end */
 /* FIRST STEPS END */
 
 /* PET CARE START */
