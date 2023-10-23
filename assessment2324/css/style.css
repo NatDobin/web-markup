@@ -756,6 +756,155 @@ padding-top: 50px;
 /* Block 5 style end */
 /* PET CARE END */
 
+/* ACTIVITY START */
+/* Block 1 style start */
+.activity-block1-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activity-block1-article 
+{
+    padding-left: 95px;
+}
+.activity-block1-title 
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 50px;
+}
+.activity-block1-text 
+{
+    width: 314px;
+}
+.activity-block1-p 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-bottom: 35px;
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.activity-block2 
+{
+    height: 200px;
+    background-color: #FDDD98;
+}
+.activity-block2-title 
+{
+    font-family: Khorla;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 40px;
+}
+.activity-block2-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; 
+    padding-top: 30px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.activity-block3 
+{
+    margin: 45px 0px;
+}
+.activity-block3-content
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.activity-block3-article 
+{
+    width: 475px;
+}
+.activity-block3-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 40px;
+}
+.activity-block3-subtitle 
+{
+    font-family: Khorla;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+}
+.activity-block3-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding: 30px 0px;
+}
+.activity-block3-p 
+{
+    padding-bottom: 22px;
+}
+.activity-block3-p:last-child
+{
+    padding-bottom: 22px;
+}
+.activity-block3-link
+{
+    color: #98102A;
+    font-family: Khorla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.activity-block4 
+{
+    height: 600px;
+    background-color: #F1E8DB;
+}
+.activity-block4-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.activity-block4-article 
+{
+    width: 360px;
+}
+.activity-block4-text 
+{
+    padding-bottom: 40px;
+}
+.activity-block4-title 
+{
+    font-family: Khorla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-align: center;
+}
+.activity-block4-p 
+{
+    padding-top: 30px;
+}
+/* Block 4 style end */
+/* ACTIVITY END */
+
 
 
 
