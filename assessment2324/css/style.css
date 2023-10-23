@@ -439,6 +439,7 @@ padding-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 75px;
 }
 .steps-block2-list
 {
@@ -453,7 +454,11 @@ padding-top: 50px;
 {
     font-size: 16px;
     font-style: normal;
-    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.steps-list-item:last-child
+{
+    padding-bottom: 0px;
 }
 .steps-list-item::first-line
 {
@@ -467,9 +472,6 @@ padding-top: 50px;
 /*  Block 2 style end */
 
 /*  Block 3 style start */
-.steps-block3
-{
-}
 .steps-block3-header
 {
     height: 90px;
@@ -542,16 +544,219 @@ padding-top: 50px;
 /* FIRST STEPS END */
 
 /* PET CARE START */
-.pet-block1
-{
-}
+/*  Block 1 style start */
 .pet-block1-pic
 {
     max-width: 1150px;
     height: auto;
     display: flex;
+    border: #F1E8DB solid 10px;
 }
+/* Block 1 style end */
+
+/* Block 2 style start */
+.pet-block2 
+{
+    height: 250px;
+    background-color: #F1E8DB;
+    margin: 75px 0px;
+}
+.pet-block2-content
+{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+.pet-block2-title 
+{
+    display: flex;
+    justify-content: center;
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+.pet-block2-nav 
+{
+    padding-top: 52px;
+}
+.pet-block2-menu 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.pet-block2-item 
+{
+    list-style: none;
+}
+.pet-block2-link 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #373737;
+    font-family: 'Khorla';
+    width: 169px;
+    height: 61px;
+    padding: 25px 40px;
+    border-radius: 10px;
+    background: #FDDD98;
+    box-shadow: 3px 3px 0px 1px #98102a;
+}
+.pet-block2-link:hover
+{
+    background-color: #fff;
+    box-shadow: 3px 3px 0px 1px #98102a; 
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.pet-block3 
+{
+    margin: 75px 0px;
+}
+.pet-block3-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+}
+.pet-block3-text 
+{
+    width: 361px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.pet-block4 
+{
+    height: 500px;
+    background-color: #F1E8DB;
+    margin-bottom: 75px;
+}
+.pet-block4-article 
+{
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pet-block4-title 
+{
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+}
+.pet-block4-subtitle 
+{
+    font-family: Khorla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+.pet-block4-text {
+}
+.pet-block4-p 
+{
+    max-width: 930px;
+    padding-bottom: 20px;
+}
+.pet-block4-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 4 style end */
+
+/* Block 5 style start */
+.pet-block5 
+{
+    height: 600px;
+    background-color: #FDDD98;
+    margin-bottom: 40px;
+}
+.pet-block5-content 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.pet-block5-article 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+    padding-top: 113px;
+}
+.pet-block5-title 
+{
+    margin: 0;
+    font-family: Khorla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.pet-block5-subtitle 
+{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%;
+    padding-top: 30px;
+}
+.pet-block5-text 
+{
+    padding-top: 55px;
+}
+.pet-block5-p 
+{
+    font-weight: 400;
+    line-height: 150%;
+    padding-bottom: 30px;
+}
+.pet-block5-p:last-child
+{
+    padding-bottom: 0px;
+}
+.pet-block5-aside 
+{
+    background-color: #fff;
+    max-width: 455px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.pet-aside-article 
+{
+    padding: 180px 72px;
+}
+.pet-aside-title 
+{
+    color: #3518C6;
+    font-family: Khorla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    text-align: center;
+}
+.pet-aside-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 5 style end */
 /* PET CARE END */
+
+
 
 
 /* Footer style start */
