@@ -905,6 +905,229 @@ padding-top: 50px;
 /* Block 4 style end */
 /* ACTIVITY END */
 
+/* TRAVEL START */
+/* Title start */
+.travel-title
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%; /* 48px */
+    padding: 70px 0px;
+}
+/* Title end */
+
+/* Block 1 style start */
+.travel-block1 
+{
+    height: 170px;
+    background-color: #FDDD98;
+}
+.travel-block1-article
+{
+    padding: 40px 0px;
+}
+.travel-block1-p 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/* Block 1 style end */
+
+/* Block 2 style start */
+.travel-block2 
+{
+    margin: 70px 0px;
+}
+.travel-block2-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block2-article 
+{
+    width: 455px;
+}
+.travel-block2-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.travel-block2-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding: 50px 0px;
+}
+.travel-block2-p
+{
+    padding-bottom: 35px;
+}
+.travel-block2-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 2 style end */
+
+/* Block 3 style start */
+.travel-block3
+{
+margin-bottom: 70px;
+}
+.travel-block3-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block3-article
+{
+    width: 360px;
+}
+.travel-block3-text 
+{
+    padding-bottom: 65px;
+}
+.travel-block3-text:last-child
+{
+    padding-bottom: 0; 
+}
+.travel-block3-title
+{
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.travel-block3-p 
+{
+    padding-top: 35px;
+}
+/* Block 3 style end */
+
+/* Block 4 style start */
+.travel-block4 
+{
+    height: 600px;
+    background-color: #FDDD98;
+}
+.travel-block4-content 
+{
+    padding-top: 50px;
+}
+.travel-block4-title 
+{
+    margin: 0;
+    color: #98102A;
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 150%; /* 36px */
+}
+.travel-block4-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.travel-block4-text 
+{
+    width: 1025px;
+}
+.travel-block4-p 
+{
+    padding-bottom: 25px;
+}
+.travel-block4-p:last-child
+{
+    padding-bottom: 0px;
+}
+/* Block 4 style end */
+
+/* Block 5 style start */
+.travel-block5 
+{
+    margin: 40px 0;
+}
+.travel-block5-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.travel-block5-article 
+{
+    width: 400px;
+}
+.travel-block5-title 
+{
+    margin: 0;
+    color: #98102A;
+    font-family: Dela Gothic One;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 35px;
+}
+.travel-block5-subtitle 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-bottom: 45px;
+}
+.travel-block5-p 
+{
+    padding-bottom: 30px;
+}
+/* Block 5 style end */
+
+/* Block 6 style start */
+.travel-block6 
+{
+    height: 200px;
+    background-color: #F1E8DB;
+}
+.travel-block6-content 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+.travel-block6-text 
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    width: 930px;
+    
+}
+.travel-block6-p 
+{
+    font-family: Khorla;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+    padding-top: 50px;
+}
+/* Block 6 style end */
+/* TRAVEL END */
+
 
 
 
@@ -943,5 +1166,4 @@ padding-top: 50px;
     justify-content: space-between;
     align-items: center;
 }
-
 /* Footer style end */
