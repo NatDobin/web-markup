@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
     <link rel="stylesheet" href="css/style.css">
     <title>Pawsitively Haarlem</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
 
@@ -41,42 +42,44 @@
         </header>
 
     <!-- Block 1 -->
-   <section class="contact-block1">
-    <section class="container">
-        <h1 class="contact-block1-title">Get in touch!</h1>
-    </section>
-   </section>
+        <section class="contact-block1">
+            <section class="container">
+                <h1 class="contact-block1-title">Get in touch!</h1>
+            </section>
+        </section>
 
    <!-- Block 2 -->
-   <section class="contact-block2">
-    <section class="container">
-        <section class="contact-content">
-            <img src="img/jpg/contact-pic.jpg" alt="a dod is lying on the carpet with a book on her paws" title="a dog with a book">
-            <section class="contact-information">
-                <h2 class="contact-block2-title">Leave us a message</h2>
-                <section class="contact-radio-buttons">
-                    <label>
-                        <input type="radio" id="male" name="radio" />
-                        <span class="radio-btn">Mr</span>
-                    </label>
-                    <label>
-                        <input type="radio" id="female" name="radio" checked />
-                        <span class="radio-btn">Mrs</span>
-                    </label>
-                </section>
-                <form action="#!" class="contact-forms">
-                    <input type="text" class="contact-input" placeholder="Name">
-                    <input type="email" class="contact-input" placeholder="Email">
-                    <input type="text" class="contact-input-help" placeholder="How can we help you?">
-                
-                </form>
-                <section class="contact-send-btn">
-                    <a href="#!" class="send-button">send</a>
+        <section class="contact-block2">
+            <section class="container">
+                <section class="contact-content">
+                    <figure class="contact-pic">
+                        <img src="img/jpg/contact-pic.jpg" alt="a dod is lying on the carpet with a book on her paws" title="a dog with a book">
+                        <figcaption>We are waiting for your reply</figcaption>
+                    </figure>
+                    <section class="contact-information">
+                        <form action="#!" class="contact-radio-buttons">
+                            <legend class="contact-block2-title">Leave us a message</legend>
+                            <label>
+                                <input type="radio" id="male" name="radio" />
+                                <span class="radio-btn">Mr</span>
+                            </label>
+                            <label>
+                                <input type="radio" id="female" name="radio" checked />
+                                <span class="radio-btn">Mrs</span>
+                            </label>
+                        </form>
+                        <form action="#!" class="contact-forms">
+                            <input type="text" class="contact-input"  placeholder="Name">
+                            <input type="email" class="contact-input" placeholder="Email">
+                            <input type="text" class="contact-input-help" placeholder="How can we help you?">
+                        </form>
+                        <section class="contact-send-btn">
+                            <input type="submit" class="submit-button">
+                        </section>
+                    </section>
                 </section>
             </section>
         </section>
-    </section>
-   </section>
     
     <!-- Footer -->
         <footer class="footer">
@@ -85,11 +88,22 @@
                     <a class="logo">
                         <img src="img/svg/logo.svg" alt="Pawsitive Haarlem logo" title="logo">
                     </a>   
-                    <p class="copyright">Copyright © NaDo 2023</p>
+                    <p class="copyright">Copyright &copy NaDo 2023</p>
                     <a href="contact.html" class="contact-btn">Contact Us</a>
                 </section>
             </section>
         </footer>
+
+    <!-- Cookies -->    
+
+        <section class="cookie">
+            <section class="container">
+                <section class="cookie-content">
+                    <p class="cookies-message">We use cookies to ensure you have the best experience on our website. By continuing to browse the site, you agree to our use of cookies. We use cookies for analytics, personalized content, and ads. To learn more about our cookie policy and how to manage cookies, please see our <a href="#!">Cookie Policy</a>. Thank you for visiting PawsitivelyHaarlem.com!</p>
+                    <button class="cookie-btn">Accept All Cookies</button>   
+                </section>
+            </section>
+        </section>
 
 </body>
 </html>

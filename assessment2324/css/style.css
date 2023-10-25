@@ -36,7 +36,7 @@ p
 /* Adding fonts */
 @font-face 
 {
-    font-family: 'Dela Gothic One';
+    font-family: 'Dela Gothic One', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -47,8 +47,6 @@ p
     font-family: 'Mimolette-Regular';
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 37.5px */
-    letter-spacing: 0.625px;
     src: url(../fonts/Mimolette-Regular.otf) format(otf);
 }
 @font-face 
@@ -120,6 +118,7 @@ p
     font-size: 36px;
     width: 437px;
     line-height: 150%; /* 54px */
+    position: absolute;
 }
 .home-block1-subtitle
 {
@@ -1161,6 +1160,18 @@ margin-bottom: 70px;
     display: flex;
     justify-content: space-between;
 }
+.contact-pic
+{
+    margin: 0;
+}
+figcaption
+{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #373737;
+    color: #fff;
+}
 .contact-information 
 {
     display: flex;
@@ -1179,6 +1190,7 @@ margin-bottom: 70px;
     display: flex;
     flex-direction: column;
 }
+
 /* Radio button start */
 .contact-radio-buttons 
 {  
@@ -1193,15 +1205,10 @@ label span
 {
     display: inline-flex;
     align-items: center;
-    /* padding: 5px 15px 5px 5px;  */
     margin-right: 80px;
     transition: .25s ease;
     border-radius: 15px;
 }
-/* label span:hover, input[type="radio"]:checked + span
-{
-    background-color: #FFFFFF80;
-} */
 label span::before
 {
     content: "";
@@ -1218,7 +1225,6 @@ input[type="radio"]:checked + span::before
     box-shadow: inset 0 0 0 10px #3518C6;
 }
 /* Radio button end */
-
 
 .contact-input 
 {
@@ -1243,7 +1249,7 @@ input[type="radio"]:checked + span::before
     display: flex;
     justify-content: center;
 }
-.send-button
+.submit-button
 {
     display: flex;
     align-items: center;
@@ -1259,8 +1265,10 @@ input[type="radio"]:checked + span::before
     border-radius: 10px;
     background:  #FCB8AC;
     box-shadow: 3px 3px 0px 1px #98102A;
+    border: 0;
+    cursor: pointer;
 }
-.send-button:hover
+.submit-button:hover
 {
     background-color: #fff;
     box-shadow: 3px 3px 0px 1px #98102a; 
@@ -1302,3 +1310,33 @@ input[type="radio"]:checked + span::before
     align-items: center;
 }
 /* Footer style end */
+
+/* Cookie style start */
+.cookie
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    background: #FFFFFF80;
+    transition: 400ms;
+    z-index: 9999;
+}
+.cookie a
+{
+    color: #3518C6;
+}
+.cookies-message
+{
+    padding: 20px 0px;
+}
+.cookie-btn
+{
+    border: 0;
+    background-color: #FCB8AC;
+    border-radius: 15px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+/* Cookie style end */
