@@ -111,12 +111,11 @@ p
 }
 .home-block1-title
 {
-    font-family: 'Dela Gothic One';;
+    font-family: 'Dela Gothic One';
     color: #98102a;
     font-size: 36px;
     width: 437px;
     line-height: 150%; /* 54px */
-    position: absolute;
 }
 .home-block1-subtitle
 {
