@@ -36,26 +36,24 @@ p
 /* Adding fonts */
 @font-face 
 {
-    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Dela Gothic One';;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    src: url(../fonts/DelaGothicOne-Regular.ttf) format(ttf);
+    src: url(../fonts/DelaGothicOne-Regular.ttf);
 }
 @font-face
 {
     font-family: 'Mimolette-Regular';
     font-style: normal;
     font-weight: 400;
-    src: url(../fonts/Mimolette-Regular.otf) format(otf);
+    src: url(../fonts/Mimolette-Regular.otf);
 }
 @font-face 
 {
     font-family: 'Khorla';
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
-    src: url(../fonts/Khorla.ttf) format(ttf);
+    src: url(../fonts/Khorla.ttf);
 }
 
 /* Header style start */
@@ -113,7 +111,7 @@ p
 }
 .home-block1-title
 {
-    font-family: 'Dela Gothic One';
+    font-family: 'Dela Gothic One';;
     color: #98102a;
     font-size: 36px;
     width: 437px;
@@ -155,7 +153,7 @@ p
     margin: 0;
     padding: 0;
     color: #98102a;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     line-height: 150%;
     font-style: normal;   
@@ -181,7 +179,7 @@ p
     margin: 0px;
     padding-top: 54px;
     color: #98102a;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-style: normal;
     text-align: center;
@@ -242,7 +240,7 @@ p
 {
     color: #98102a;
     text-align: center;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 20px;
     line-height: 150%; /* 30px */
     padding-bottom: 65px;
@@ -275,7 +273,7 @@ p
 }
 .kids-block2-title 
 {
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     color: #98102a;
     margin: 0;
@@ -311,7 +309,7 @@ p
 }
 .kids-block3-title 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     margin: 0;
 }
@@ -351,7 +349,7 @@ p
 }
 .kids-block4-title 
 {
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 20px;
     color: #98102a;
 }
@@ -394,7 +392,7 @@ p
 {
     margin: 0;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-weight: 400;
     padding-bottom: 47px;
@@ -432,7 +430,7 @@ p
 {
     margin: 0;
     color: #3518C6;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 20px;
     font-weight: 400;
     display: flex;
@@ -466,12 +464,12 @@ p
 }
 .steps-list-item::first-line
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
 }
 .steps-link
 {
     color: #98102A;
-    font-family: Khorla;
+    font-family: 'Khorla';
 }
 /*  Block 2 style end */
 
@@ -487,7 +485,7 @@ p
 .steps-block3-title
 {
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-weight: 400;
 }
@@ -576,7 +574,7 @@ p
     display: flex;
     justify-content: center;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-weight: 400;
     word-spacing: 2px;
@@ -657,13 +655,13 @@ p
 .pet-block4-title 
 {
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-weight: 400;
 }
 .pet-block4-subtitle 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -701,7 +699,7 @@ p
 .pet-block5-title 
 {
     margin: 0;
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%;
@@ -743,7 +741,7 @@ p
 .pet-aside-title 
 {
     color: #3518C6;
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -775,7 +773,7 @@ p
     margin: 0;
     color: #98102A;
     text-align: center;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 24px;
     font-weight: 400;
     padding-bottom: 50px;
@@ -801,7 +799,7 @@ p
 }
 .activity-block2-title 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 24px;
     font-weight: 400;
     line-height: 150%;
@@ -835,7 +833,7 @@ p
 {
     margin: 0;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';;
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -843,7 +841,7 @@ p
 }
 .activity-block3-subtitle 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-weight: 400;
     line-height: 150%; /* 24px */
 }
@@ -865,7 +863,7 @@ p
 .activity-block3-link
 {
     color: #98102A;
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -894,7 +892,7 @@ p
 }
 .activity-block4-title 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -914,7 +912,7 @@ p
     margin: 0;
     color: #98102A;
     text-align: center;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 32px;
     font-weight: 400;
     line-height: 150%; /* 48px */
@@ -959,7 +957,7 @@ p
 {
     margin: 0;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 24px;
     font-weight: 400;
     line-height: 150%; /* 36px */
@@ -1007,7 +1005,7 @@ margin-bottom: 70px;
 .travel-block3-title
 {
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -1033,7 +1031,7 @@ margin-bottom: 70px;
     margin: 0;
     color: #98102A;
     text-align: center;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 24px;
     font-weight: 400;
     line-height: 150%; /* 36px */
@@ -1079,7 +1077,7 @@ margin-bottom: 70px;
 {
     margin: 0;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -1121,7 +1119,7 @@ margin-bottom: 70px;
 }
 .travel-block6-p 
 {
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 20px;
     font-weight: 400;
     line-height: 150%; /* 30px */
@@ -1144,7 +1142,7 @@ margin-bottom: 70px;
     justify-content: center;
     padding-top: 40px;
     color: #98102A;
-    font-family: Dela Gothic One;
+    font-family: 'Dela Gothic One';
     font-size: 32px;
     font-weight: 400;
 }
@@ -1182,7 +1180,7 @@ figcaption
     margin: 0;
     padding-bottom: 40px;
     color: #3518C6;
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-size: 24px;
     font-weight: 400;
 }
@@ -1256,7 +1254,7 @@ input[type="radio"]:checked + span::before
     justify-content: center;
     text-align: center;
     color: #373737;
-    font-family: Khorla;
+    font-family: 'Khorla';
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
