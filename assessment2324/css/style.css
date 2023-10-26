@@ -169,7 +169,7 @@ p
 .home-block3 
 {
     background-color: #FDDD98;
-    height: 600px;
+    min-height: 600px;
     margin-bottom: 40px;
 }
 
@@ -1338,3 +1338,22 @@ input[type="radio"]:checked + span::before
     cursor: pointer;
 }
 /* Cookie style end */
+
+@media (orientation: portrait), (max-width: 768px)
+{
+.header{ 
+    max-width: 100%;}
+.home-block1{
+    max-width: 100%;}
+.home-block2-content{
+    display: flex;
+    flex-direction: column;}
+    .home-block3{
+        max-height: 100%;
+    }
+.home-block3-nav{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+}    
+}
