@@ -106,7 +106,7 @@ p
 }
 .home-block1-headline
 {
-    padding-top: 250px;
+    padding-top: 150px;
     margin: 0; 
 }
 .home-block1-title
@@ -120,6 +120,7 @@ p
 .home-block1-subtitle
 {
     font-size: 24px;
+    margin-bottom: 50px;
 }
 .home-block1-pic
 {
@@ -204,13 +205,17 @@ p
     justify-content: center;
     text-decoration: none;
     text-align: center;
-    color: #373737;
-    font-family: 'Khorla';
     width: 170px;
     height: 62px;
     border-radius: 10px;
     background: #FCB8AC;
     box-shadow: 3px 3px 0px 1px #98102a; 
+}
+.home-block3-btn-text
+{
+    color: #373737;
+    font-family: 'Khorla';
+    width: 115px;
 }
 .home-block3-btn:hover
 {
